@@ -26,5 +26,6 @@
         <annotator language="Zig" implementationClass="org.ziglang.jetbrains.ZigHighlightAnnotator"/>
         <psi.referenceContributor language="Zig"
                                   implementation="org.ziglang.jetbrains.reference.ZigReferenceContributor"/>-->
+        <codeInsight.lineMarkerProvider language="Zig" implementationClass="org.ziglang.jb.execution.ZigTestRunLineMarkerProvider"/>
     </extensions>
 </idea-plugin>
